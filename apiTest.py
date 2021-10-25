@@ -1,10 +1,5 @@
 import requests
 
-# DUCKDUCKGO_API = 'https://api.duckduckgo.com/'
-# params = {'q': 'lincoln', 'format': 'json'}
-# response = requests.get(DUCKDUCKGO_API, params=params)
-# print(response.json()['Heading'].lower())
-
 
 url = 'https://api.duckduckgo.com/?q=presidents%20of%20the%20united%20states&format=json&pretty=1%22'
 actual_list_of_president_names = [
