@@ -53,6 +53,7 @@ actual_list_of_president_names = [
     "George W. Bush",
     "Barack Obama",
     "Donald J. Trump",
+    "Joe, Biden"
 ]
 
 response = requests.get(url).json()

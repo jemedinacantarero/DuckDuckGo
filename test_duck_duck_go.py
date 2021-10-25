@@ -50,6 +50,7 @@ actual_list_of_president_names = [
     "George W. Bush",
     "Barack Obama",
     "Donald J. Trump",
+    "Joe Biden"
 ]
 
 actualLastName = []
@@ -63,7 +64,7 @@ for i in range(len(response["RelatedTopics"])):
             response["RelatedTopics"][i]['FirstURL'].split('/')[-1].replace('_', ' ').split(' ')[-1])
 
 
-@pytest.mark.parametrize("actualPresidentLastName", ['Adams', 'Buchanan', 'Buren',
+@pytest.mark.parametrize("actualPresidentLastName", ['Adams', 'Biden', 'Buchanan', 'Buren',
                                                      'Bush', 'Bush', 'Carter',
                                                      'Cleveland', 'Clinton', 'Coolidge',
                                                      'Eisenhower', 'Fillmore', 'Ford',
